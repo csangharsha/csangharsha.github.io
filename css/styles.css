@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;:
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background: #333333;
+  overflow: hidden;
+}
+
+.landing {
+  position: relative;
+  background-image: url("../images/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.landing-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.landing h1 {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.landing p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.landing img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.countdown {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown div {
+  opacity: 0.7;
+  background: #000000;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  margin: 25px;
+}
+
+.countdown div:first-child {
+  background: #17A2B8;
+}
+
+.countdown span {
+  display: block;
+  font-size: 25px;
+}
+
+@media(max-width: 650px) {
+  .landing img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .landing h1 {
+    font-size: 40px;
+  }
+
+  .countdown {
+    font-size: 30px;
+    flex-direction: column;
+  }
+
+  .countdown div{
+    display: none;
+  }
+
+  .countdown div:first-child {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+@media(max-height: 600px) {
+  .landing img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .landing p {
+    display: none;
+  }
+}
+
+@media(max-height: 400px) {
+  .landing img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .landing h1 {
+    display: none;
+  }
+}
