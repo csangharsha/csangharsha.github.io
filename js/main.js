@@ -1,7 +1,7 @@
 const countdown = document.querySelector(".countdown");
 
 // set launch date
-const launchDate = new Date("December 15, 2019 00:00:00").getTime()
+const launchDate = new Date("January 15, 2020 00:00:00").getTime()
 
 const intvl = setInterval(() => {
   // get today's date and time in ms
