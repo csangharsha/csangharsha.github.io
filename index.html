@@ -1,22 +1,515 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>__main__ Coming Soon</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
-  </head>
-  <body>
-    <section class="landing">
-      <div class="landing-inner">
-        <img src="./images/pro_pic.jpg" alt="" id="pro_pic">
-        <p>An Enthusiastic Software Engineer</p>
-        <h1 class="comingsoon">Coming Soon</h1>
-        <div class="countdown"></div>
-      </div>
-    </sectio>n
+<html lang="en">
 
-    <script src="./js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <link rel="stylesheet" href="./css/styles2.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Sangharsha Chaulagain</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <ul>
+        <li class="logo">
+          <a href="#intro" id="logo-container" class="brand-logo teal-text active">
+            <h2>
+              Sangharsha Chaulagain
+              <span class="brown-text light">
+                Software Developer
+              </span>
+            </h2>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-person small"></i><span>About</span></a>
+        </li>
+        <li>
+          <a href="#experience" class="waves-effect waves-dark cyan-text"><i
+              class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        </li>
+        <li>
+          <a href="#project" class="waves-effect waves-dark indigo-text"><i
+              class="mdi-av-web small"></i><span>Projects</span></a>
+        </li>
+        <li>
+          <a href="#skill" class="waves-effect waves-dark purple-text"><i
+              class="mdi-av-equalizer small"></i><span>Skills</span></a>
+        </li>
+        <li>
+          <a href="#award" class="waves-effect waves-dark red-text"><i
+              class="mdi-action-grade small"></i><span>Awards</span></a>
+        </li>
+        <li>
+          <a href="#education" class="waves-effect waves-dark orange-text"><i
+              class="mdi-social-school small"></i><span>Education</span></a>
+        </li>
+        <li>
+          <a href="#contact" class="waves-effect waves-dark brown-text"><i
+              class="mdi-content-mail small"></i><span>Contact</span></a>
+        </li>
+        <!-- <li>
+                    <a href="#" class="waves-effect waves-dark green-text"><i
+                        class="mdi-content-mail small"></i><span>Blog</span></a>
+                </li> -->
+      </ul>
+    </div>
+
+    <div class="main_content">
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>
+            First solve
+            <span class="teal">the problem</span>
+            <br>Then wrote
+            <span class="underline">the code</span>.
+          </h2>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>
+              Enthusiastic Software developer with a passion for problem solving, developing, and teaching.
+            </h2>
+          </blockquote>
+          <p>Driven by my own growth and focused on helping the IT community, my goal is to combine both my passion for
+            programming to solve the problems and desire to contribute towards the development of future IT engineers. I
+            desire to continue my work as a lecturer, trainer, mentor, and programmer to fulfill my goal.</p>
+          <p>As a software developer, I enjoy solving the problem, and my mission-driven work ethic to literally change
+            the world. That's why I’m excited to make a big impact at a high growth company.</p>
+          <p>
+            <strong>Current Focus</strong>
+            &nbsp;
+            <a href="#">Graphics Design</a>
+            <!-- &nbsp; // &nbsp;
+            <a href="#"></a> -->
+            &nbsp; // &nbsp;
+            <a href="#">React JS/Native</a>
+          </p>
+        </div>
+      </section>
+
+      <!--EXPERIENCE-->
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <!-- ITGlance Pvt. Ltd.-->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://itglance.net/" target="_blank">
+                    <img src="images/itg_logo.png" alt="ITGlance Logo" class=" responsive-img center-block">
+                  </a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">
+                      <a href="https://itglance.net/" target="_blank" class="teal-text hoverline">
+                        ITGlance Pvt. Ltd.
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Senior Software Developer
+              </div>
+              <p>
+                <em class="grey-text">
+                  Nepal based software company, providing expert development of custom software
+                  applications, web design, graphics design and web application.
+                </em>
+              </p>
+              <h6>Responsibility</h6>
+              <ul>
+                <li>Work independently to upgrade, to support and to enhance existing <strong>Project and
+                    Construction Management System</strong> under the supervision of Implementation Managers </li>
+                <li>Develop an API in Django (python framework) for simple data analysis </li>
+                <li>Optimization of existing code. </li>
+                <li>Train the new member(interns) </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jun 2018 - Present &nbsp;|&nbsp; Tripureshwor, Kathmandu, Nepal</span>
+            </div>
+          </div>
+
+          <!-- Smart Data Solutions-->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://sdata.us/" target="_blank">
+                    <img src="images/itg_logo.png" alt="SDS Logo" class=" responsive-img center-block">
+                  </a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">
+                      <a href="https://sdata.us/" target="_blank" class="teal-text hoverline">
+                        Smart Data Solutions
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Software Developer
+              </div>
+              <p>
+                <em class="grey-text">
+                  Makes the health care market more efficient by leveraging technology to provide
+                  effective, high-quality claims processing solutions
+                </em>
+              </p>
+              <h6>Responsibility</h6>
+              <ul>
+                <li>Work independently to upgrade and to enhance existing system under the supervision of Implementation
+                  Managers and Implementation Directors </li>
+                <li>Implementing new workflow/line of business or new customer to the system </li>
+                <li>Web interface setup, claim repricing systems setup </li>
+                <li>Support/Upgrade of <strong>Healthcare Claim Processing application</strong> </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jun 2018 - Present &nbsp;|&nbsp; Tripureshwor, Kathmandu, Nepal</span>
+            </div>
+          </div>
+
+          <!-- QPay-->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://qpay.com.np/" target="_blank">
+                    <img src="images/qpay_logo.png" alt="QPay Logo" class="responsive-img center-block">
+                  </a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">
+                      <a href="https://qpay.com.np/" target="_blank" class="teal-text hoverline">
+                        Qpay Pvt. Ltd.
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Software Developer
+              </div>
+              <p>
+                <em class="grey-text">
+                  Nepal based software company, facilitating the users to make payments via their
+                  mobile devices for the products purchased and/or services availed.
+                </em>
+              </p>
+              <h6>Responsibility</h6>
+              <ul>
+                <li>Worked in the team to build the <strong>QPay System, an e-wallet application</strong>, for Customer
+                  and Merchant </li>
+                <li>Worked independently on Specific Merchant(Bank) Application </li>
+                <li>Implementation of the Survey Application(Internal) for Marketing Team </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jul 2016 - Apr 2017 &nbsp;|&nbsp; Baluwatar, Kathmandu, Nepal</span>
+            </div>
+          </div>
+
+          <!-- K.System Pvt. Ltd.-->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="#">
+                    <img src="images/ksystem_logo.png" alt="QPay Logo" class="responsive-img center-block">
+                  </a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">
+                      <a href="https://qpay.com.np/" target="_blank" class="teal-text hoverline">
+                        K System Pvt. Ltd.
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Software Developer
+              </div>
+              <p>
+                <em class="grey-text">
+                  Korean based software company, providing the full ERP services in multiple platform with customizable
+                  and user friendly interface.
+                </em>
+              </p>
+              <h6>Responsibility</h6>
+              <ul>
+                <li>Responsible for developing <strong>Mobile ERP System</strong> in both iOS and Android Platform.
+                </li>
+                <li>Worked on Research and Development Department to assist the team in BI projects. </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Oct 2014 - Apr 2016 &nbsp;|&nbsp; Basbari, Kathmandu, Nepal</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Project-->
+      <section id="project" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container flow-text">
+          <p>Coming soon.</p>
+        </div>
+      </section>
+
+      <!--Skills-->
+      <section id="skill" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container flow-text">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/html5.png" /> <span class="skill-title">HTML5</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/react.png" /> <span class="skill-title">JSX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/css3.png" /> <span class="skill-title">CSS3</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/bootstrap.png" /> <span class="skill-title">Bootstrap</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/materialize.png" /> <span
+                    class="skill-title">Materialize</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/javascript.png" /> <span class="skill-title">Javascript</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/react.png" /> <span class="skill-title">React</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/jquery.png" /> <span class="skill-title">jQuery</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Java</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/java_logo.png" /> <span class="skill-title">Java</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/spring-framework-logo.svg" /> <span
+                    class="skill-title">Spring</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/spring-boot-logo.svg" /> <span class="skill-title">Spring
+                    Boot</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/hibernate-logo.svg" /> <span
+                    class="skill-title">Hibernate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Python</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/python-logo.png" /> <span class="skill-title">Python</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/django-logo.svg" /> <span class="skill-title">Django</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Database</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/mysql-logo.svg" /> <span class="skill-title">MySQL</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/postgresql.png" /> <span class="skill-title">PostgreSQL</span>
+                </div>
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/mongodb.png" /> <span class="skill-title">MongoDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/android-logo.png" /> <span class="skill-title">Android</span>
+                </div>
+
+                <div class="col s4 m2">
+                  <img class="responsive-img" src="images/github.png" /> <span class="skill-title">Github</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Award-->
+      <section id="award" class="section scrollspy">
+        <h3 class="page-title white-text teal">Awards</h3>
+        <div class="container flow-text">
+          <p>Coming soon.</p>
+        </div>
+      </section>
+
+      <!--Eduction-->
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <!--Nepal Engineering College-->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title">
+                      <a href="https://nec.edu.np/" class="teal-text hoverline">
+                        Nepal Engineering College(NEC)
+                      </a>
+                    </span>
+                  </p>
+                  <p class="brown-text">
+                    Changunarayan, Bhaktapur, Nepal
+                  </p>
+                  <ul>
+                    <li>B.E. in Electronics and Communication</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact-->
+      <section id="contact" class="section scrollspy">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container flow-text">
+          <!--Email-->
+          <p>
+            <a href="mailto:sangharsh.chaulagain@gmail.com" data-position="top" data-tooltip="Email Sangharsha"
+              class="btn-floating btn-large waves-effect wave-light tooltipped" aria-label=" Email Sangharsha">
+              <i class="fa fa-envelope"></i>
+            </a>
+            <a aria-label="Email Sangharsha" href="mailto:sangharsh.chaulagain@gmail.com"
+              class="hoverline">sangharsh.chaulagain@gmail.com</a>
+          </p>
+
+          <!--Github-->
+          <p>
+            <a href="http://github.com/csangharsha" data-position="top" data-tooltip="View Sangharsha On github"
+              class="btn-floating btn-large waves-effect wave-light tooltipped" aria-label="View Sangharsha On github">
+              <i class="fa fa-github"></i>
+            </a>
+            <a aria-label="View Sangharsha On github" href="http://github.com/csangharsha"
+              class="hoverline">github.com/csangharsha</a>
+          </p>
+
+          <!--Linkedin-->
+          <p>
+            <a href="http://linkedin.com/in/s-chaulagain" data-position="top" data-tooltip="View Sangharsha On Linkedin"
+              class="btn-floating btn-large waves-effect wave-light tooltipped"
+              aria-label="View Sangharsha On Linkedin">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a aria-label="View Sangharsha On Linkedin" href="http://linkedin.com/in/s-chaulagain"
+              class="hoverline">linkedin.com/in/s-chaulagain</a>
+          </p>
+        </div>
+    </div>
+    </section>
+  </div>
+
+
+  <script>
+    $(document).ready(function () {
+      // Add scrollspy to <body>
+      $('body').scrollspy({ target: ".sidebar", offset: 50 });
+
+      // Add smooth scrolling on all links inside the navbar
+      $(".sidebar a").on('click', function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 300, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+  </script>
+</body>
+
 </html>
