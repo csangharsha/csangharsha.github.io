@@ -306,3 +306,12 @@ a.hoverline {
 a.hoverline:hover {
   border-bottom: 3px solid #009688 !important;
 }
+
+.card-content-p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.project-img {
+  border-bottom: 1px solid #ccc;
+}
